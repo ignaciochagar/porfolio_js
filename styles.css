@@ -103,6 +103,7 @@ span{
 }
 
 .footer {
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,7 +201,7 @@ span{
  .wrapper_contacto {
         width: 100vw;
         height: 100vh;
-        background-color: #191c32;       
+        /* background-color: #191c32;        */
     }
 
 .contact-section {
@@ -213,7 +214,7 @@ span{
 }
 
 .container-contact {
-    background-color: #191c32;
+    /* background-color: #191c32; */
     padding: 3em;
     margin: 0 auto;
     display: flex;
