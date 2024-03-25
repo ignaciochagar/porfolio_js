@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mo portfolio</title>
+    <title>Mi portfolio/contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/" ></a></li>
-                <li><a href="/proyecto.html" ></a></li>
-                <li><a href="/experiencia.html" ></a></li>
-                <li><a href="/contacto.html" ></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <form>
 
+<body class="body-contacto">
+    <div class="wrapper_contacto">
+        <header>
+            <div style="background-color:#191c32;">
+                <nav class="navbar">
+                    <div class="brand">
+                        <h2>I<span>C</span></h2>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="/Portafolio/index.html">Home</a></li>
+                        <li><a href="/Portafolio/portfolio.html">Portfolio</a></li>
+                        <li><a href="/Portafolio/biografia.html">Biografia</a></li>
+                        <li><a class="active" href="/Portafolio/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <style>
+            /* Aplica la opacidad a la imagen */
+            .opacidad {
+                opacity: 0.15;
+                /* Cambia este valor para ajustar la opacidad (0 completamente transparente, 1 completamente opaco) */
+            }
+        </style>
+        <main class="main-contacto">
+            <div class="contact-section">
+                <div class="contact-headings">
+                    <h2>Keep in touch</h2>
+                    <div class="divider"></div>
+                </div>
 
-            
-        </form>
+                <div class="container-contact">
+                    <img src="/Portafolio/imagenes/opacidad.png" opac alt="imagen Ignacio" class="opacidad">
+                    <div class="contact-form">
+                        <h4>Send me a message...</h4>
+                        <form class="form">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="email">
+                            <textarea placeholder="Place your message here"></textarea>
+                            <button type="submit" class="btn-submit">Send message</button>
+                        </form>
+                    </div>
+                </div>
 
+            </div>
+    </div>
     </main>
+
+    <footer class="footer-content">
+        <div class="footer">
+            <h2>Ignacio Chapero</h2>
+            <h5>Frontend Developer</h5>
+
+            <div class="social-network">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin" href="https://www.linkedin.com/in/ignacio-chapero-3a7b0a1b0/"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
