@@ -14,7 +14,9 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .wrapper, .wrapper_biografia {
@@ -22,9 +24,11 @@ body{
     height: 100vh;
     background-color: #191c32;
     color: #fff;
-    
 }
 
+info-content p{
+    text-align: justify;
+}
 .brand{
     margin-top: -8px;
 }
@@ -34,7 +38,7 @@ body{
 }
 
 .navbar{
-    
+    color: wheat;
     display: flex;
     justify-content: space-between;
     padding: 2em;
@@ -114,10 +118,12 @@ span{
 }
 
 .footer-content h2 {
-    font-size: 3em;   
+    font-size: 3em;
+    text-align: center;   
 }
 .footer-content h5, .social-network i {
-    font-size: 1.5em;   
+    font-size: 1.5em; 
+    text-align: center;  
 }
 .social-network {
     display: flex;
@@ -174,6 +180,15 @@ span{
     display: grid;
     width: 100vw;
     height: 100vh;
+}
+
+.about-info h2 {
+    font-size: 3em;
+    margin-top: auto;
+}
+
+.about-info ul {
+    margin-bottom: 40px;
 }
 
 .main-biografia img {
@@ -274,7 +289,7 @@ span{
 .card__image {
     width: 100%;
     height: 150px;
-    background-image: url(../Portafolio/imagenes/imagen.png);
+    background-image: url(../imagenes/imagen.png);
     background-size: cover;
 }
 .card__title {
@@ -319,3 +334,107 @@ span{
     justify-content: center;
     margin-top: 1em;
 }
+
+/* Google Fonts */
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  /* Responsive */
+
+  /* Media Query para dispositivos de pantalla pequeña (móviles) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        /* Modificar estilos para dispositivos móviles */
+    }
+
+    .imagen_cara .card .body {
+        width: 100%; /* Redimensionar la imagen para que ocupe todo el ancho del contenedor */
+        height: auto; /* Ajustar automáticamente la altura para mantener la proporción */
+    }
+
+    .footer {
+        display: none; /* Ocultar el footer en pantallas pequeñas */
+    }
+}
+
+/* Media Query para dispositivos de pantalla mediana (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Modificar estilos para tablets */
+}
+
+/* Media Query para dispositivos de pantalla grande (escritorio) */
+@media only screen and (min-width: 1025px) {
+    /* Modificar estilos para escritorio */
+}
+  
